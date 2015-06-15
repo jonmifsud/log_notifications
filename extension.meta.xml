@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="log_notifications" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Log Notifications</name>
+	<description>Send an email of new errors which appear within the error log since the last run</description>
+	<repo type="github">https://github.com/jonmifsud/log_notifications</repo>
+	<types>
+		<type>Administration</type>
+	</types>
+	<authors>
+		<author>
+			<name github="jonmifsud" symphony="gunglien">Jon Mifsud</name>
+			<website>http://jonmifsud.com</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1" date="2015-06-12" min="2.3">
+			- Initial Release
+		</release>
+	</releases>
+</extension>
